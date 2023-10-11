@@ -1,0 +1,10 @@
+body{
+    background: grey;
+    color: black;
+}
+
+.navbar-brand {
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: left;
+}
