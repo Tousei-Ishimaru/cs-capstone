@@ -1,10 +1,38 @@
 body{
-    background: grey;
+    background:steelblue;
     color: black;
 }
 
 .navbar-brand {
-    font-family: fantasy;
+    font-family: monospace;
     font-size: xx-large;
-    text-align: left;
+    font-weight: 600;
+    background-color: thistle;
+}
+
+.container-fluid {
+    background-color: thistle;
+}
+
+.btn {
+    background-color: rgb(136, 176, 209);
+    color: #000;
+    border: black;
+}
+
+.btn:hover {
+    background: lightgrey;
+    color: black;
+}
+
+.btn:not(:disabled):not(:disabled):active {
+    background: steelblue;
+    color: black;
+}
+.form-control {
+    background-color: lightgray;
+}
+
+.navbar-toggler {
+    background-color: rgb(136, 176, 209);
 }
