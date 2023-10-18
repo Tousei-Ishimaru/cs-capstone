@@ -36,3 +36,11 @@ body{
 .navbar-toggler {
     background-color: rgb(136, 176, 209);
 }
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
