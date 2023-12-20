@@ -6,58 +6,63 @@
     <title>cap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="transitions.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" navbar-fixed-top>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="icon.png" width="50" height="50">
-            Capstone Project
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="AboutTousei.html">About Me</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Research
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="InitialResearchTousei.html">Initial Research</a></li>
-                  <li><a class="dropdown-item" href="caseStudyTousei.html">Case Study</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="RootCausesTousei.html">Root Causes</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <div class="transition transition-1 is-active">
+      <img src = "loading.png" width="100%">
+    </div>
+    <div class="page">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" navbar-fixed-top>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="icon.png" width="50" height="50">
+              Capstone Project
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AboutTousei.html">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Research
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="InitialResearchTousei.html">Initial Research</a></li>
+                    <li><a class="dropdown-item" href="caseStudyTousei.html">Case Study</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="RootCausesTousei.html">Root Causes</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
-      <h1>Initial Research</h1>
-      <br>
-      <p style="text-align: center; color: white;"> <b style="text-align: center;">Problem statement:</b> Last year, 74% of people were unable to cope or overwhelmed because they felt so stressed. In the modern day of technology, we are being fed so much information that it distracts us from ourselves. When we are distracted all day, then we feel anxious about thoughts and feelings we don’t reflect on. Only 8% of the population currently journal, even though 95.4 % of people who do journal see positive benefits for themselves. On Habitbetter they stated that “88% of people who journal cited “Staying Focused” as a noticeable benefit to journaling…74% of people who do or have journaled saw emotional venting as a benefit…65% saw journaling improve their ability to manage stress…77% of people who journal say it helps them with “Self Discovery,” and understanding their values, beliefs and feelings about their life”. They also said that 77% of people said that journaling helps me set goals and achieve them.
-        <br><br>
-        <b>Need statement:</b> People need a journaling resource they can easily access and be consistently engaged with.
-      </p>
-          <p style="text-align: center; color: black;"><a style="color: black;"href="https://www.mentalhealth.org.uk/explore-mental-health/statistics/stress-statistics">https://www.mentalhealth.org.uk/explore-mental-health/statistics/stress-statistics</a>
-        <br> Bias: center
-        Fact reporting: factual
-        <br>
-        <a style= "color: black;"href="https://habitbetter.com/top-ranked-benefits-of-journaling">https://habitbetter.com/top-ranked-benefits-of-journaling/</a>
-        <br> Bias: center
-        Fact reporting: mostly factual
-      </p>
-  </body>
+        </nav>
+      </header>
+      <main>
+        <section class="banner">
+          <div class="banner-inner">
+            <h1>Initial Research</h1>
+            <br>
+            <h3 style="text-align: center; color: white;">This page will have my initial research</h3>
+          </div>
+        </section>
+      </main>
+    </div>
+
+      <script src="main.js"></script>
+    </body>
 </html>
